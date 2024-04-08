@@ -1,0 +1,28 @@
+.podcasts-page-container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid rgb(245, 237, 237);
+    margin-top: 5px;
+  }
+  
+  .podcasts-page-content {
+    margin-top: 2rem;
+    padding-left: 25px;
+  }
+  
+  .podcasts-page-content h1 {
+    font-size: 34px;
+    margin-bottom: 1rem;
+    text-shadow: 4px 4px 4px rgb(110, 94, 94);
+    margin-left: 19px;
+  }
+  
+  .podcasts-flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 1.5rem;
+  }
+  
+  
