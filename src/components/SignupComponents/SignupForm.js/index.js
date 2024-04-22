@@ -8,7 +8,8 @@ import { useDispatch } from "react-redux";
 import { setUser } from "../../../slices/userSlice";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import "./SignupForm.css"; // Import the CSS file
+
+
 
 function SignupForm() {
   const [fullName, setFullName] = useState("");

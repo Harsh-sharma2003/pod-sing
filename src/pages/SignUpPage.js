@@ -12,7 +12,7 @@ function SignUpPage() {
     <div>
       <Header />
       <div className="input-wrapper">
-        {!flag ? <h1>Signup</h1> : <h1>Login</h1>}
+        {!flag ? <h1 >Signup</h1> : <h1>Login</h1>}
         {!flag ? <SignupForm /> : <LoginForm />}
         {!flag ? (
           <p style={{ cursor: "pointer" }} onClick={() => setFlag(!flag)}>

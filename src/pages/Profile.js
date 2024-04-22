@@ -29,12 +29,11 @@ function Profile() {
   return (
     <div className="profile-container">
       <Header />
-      <div className="profile-info">
+      <div className="text-info">
         <h2>Congratulations {user.name}!</h2>
         <p>You've successfully logged in.</p>
-        <div className="party-popper">
-          <img src="https://5.imimg.com/data5/SELLER/Default/2024/1/375493519/NE/SU/OM/3209555/party-popper.jpg" alt="Party Popper" />
         </div>
+      <div className="profile-info">
       </div>
       <div className="profile-header">
         <h1>Name:   {user.name}</h1>

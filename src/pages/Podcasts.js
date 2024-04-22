@@ -47,7 +47,7 @@ function PodcastsPage() {
       <Header />
       <div className="podcasts-page-content">
         <h1>   Discover Podcasts</h1>
-        <InputComponent
+        <InputComponent className = "my-input"
           state={search}
           setState={setSearch}
           placeholder="Search By Title"
